@@ -16,12 +16,114 @@
   }
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #333333;
+  color: #ffffff;
 }
+
+/* IMAGEN DEL PERFIL */
+.img-perfil {
+  transition: all 0.5s ease;
+}
+
+.img-perfil:hover {
+  transform: scale(1.35);
+}
+/* IMAGEN DEL PERFIL */
+
+/* PLANETAS ORBITANDO */
+.planeta1 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 40px;
+  height: 40px;
+  animation: orbit 22s linear infinite;
+  background: url('https://cdn-icons-png.flaticon.com/128/2739/2739612.png') no-repeat center;
+  background-size: cover;
+}
+@keyframes orbit {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(175px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg) translateX(175px) rotate(360deg);
+  }
+}
+
+.planeta2 {
+  position: absolute;
+  top: 22.5%;
+  left: 22.5%;
+  width: 45px;
+  height: 45px;
+  animation: orbit2 49s linear infinite;
+  background: url('https://cdn-icons-png.flaticon.com/128/6989/6989415.png') no-repeat center;
+  background-size: cover;
+}
+@keyframes orbit2 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(250px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(250px) rotate(-360deg);
+  }
+}
+
+.planeta3 {
+  position: absolute;
+  top: 27.5%;
+  left: 27.5%;
+  width: 55px;
+  height: 55px;
+  animation: orbit3 70s linear infinite;
+  background: url('https://cdn-icons-png.flaticon.com/128/139/139706.png') no-repeat center;
+  background-size: cover;
+}
+@keyframes orbit3 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(325px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(-360deg) translateX(325px) rotate(360deg);
+  }
+}
+
+.planeta4 {
+  position: absolute;
+  top: 22.5%;
+  left: 22.5%;
+  width: 45px;
+  height: 45px;
+  animation: orbit4 33s linear infinite;
+  background: url('https://cdn-icons-png.flaticon.com/128/2739/2739625.png') no-repeat center;
+  background-size: cover;
+}
+@keyframes orbit4 {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg) translateX(400px) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg) translateX(400px) rotate(-360deg);
+  }
+}
+/* FIN DE PLANETAS ORBITANDO */
+
+/* BOTONES PORTADA */
+@layer components {
+  .portButton {
+    @apply px-3 py-2 border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40;
+  }
+}
+/* BOTONES PORTADA */
