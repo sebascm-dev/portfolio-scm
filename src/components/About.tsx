@@ -30,7 +30,7 @@ export default function About({ }: Props) {
     });
 
     return (
-        <div className='h-screen mx-auto max-w-[90%]'> {/* Añade margen automático y un ancho máximo */}
+        <div className='mx-auto max-w-[90%]'> {/* Añade margen automático y un ancho máximo */}
             <header className='mt-10 p-12 text-center'>
                 <h1 className='text-4xl uppercase tracking-[10px] text-gray-500'>About</h1>
             </header>

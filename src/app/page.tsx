@@ -4,6 +4,7 @@ import Header from '@/components/Header'
 import Portada from '@/components/Portada'
 import About from '@/components/About'
 import Experience from '@/components/Experience'
+import Skills from '@/components/Skills'
 
 export default function Home() {
   return (
@@ -25,6 +26,11 @@ export default function Home() {
       {/* Experience */}
       <section id='experience'>
         <Experience />
+      </section>
+
+      {/* Skills */}
+      <section id='skills'>
+        <Skills />
       </section>
     </main>
   )
