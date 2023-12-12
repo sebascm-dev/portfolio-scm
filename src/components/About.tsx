@@ -41,6 +41,7 @@ export default function About({ }: Props) {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5 }}
                     className='bg-[#F5B041] w-[43.5%] mx-auto p-8 text-center rounded-md shadow-xl m-4'>
+                    <a href="#projects">
                     <animated.div ref={projectsRef}>
                         <h2 className='text-lg font-semibold'>Number Projects</h2>
                         <animated.p className='text-4xl font-bold'>
@@ -49,6 +50,7 @@ export default function About({ }: Props) {
                             </animated.span>
                         </animated.p>
                     </animated.div>
+                    </a>
                 </motion.div>
 
                 <motion.div
