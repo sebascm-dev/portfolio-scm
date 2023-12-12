@@ -13,7 +13,6 @@ export default function Skills({ }: Props) {
             </header>
 
             <div>
-
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-8 mb-8'>
                     <div className='bg-[#373737] shadow-md rounded-md p-4 flex flex-wrap justify-center border border-[#373737] hover:border-[#F5B041] transition-all duration-500'>
                         <h2 className='text-2xl font-bold uppercase text-[#F5B041] w-full text-center mb-4'>Frontend</h2>
@@ -188,7 +187,6 @@ export default function Skills({ }: Props) {
                             </svg>
                         </motion.div>
                     </div>
-
                 </div>
             </div>
         </div>
