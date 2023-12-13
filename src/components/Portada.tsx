@@ -38,7 +38,7 @@ export default function Portada({ }: Props) {
             </div>
             <div className='mt-5 z-40'>
                 <Link href="#about">
-                    <button className='portButton'>AboOoOut</button>
+                    <button className='portButton'>About</button>
                 </Link>
                 <Link href="#experience">
                     <button className='portButton'>Experience</button>
