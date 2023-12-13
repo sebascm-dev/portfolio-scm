@@ -15,17 +15,22 @@ export default function Header({ }: Props) {
                 style={{ filter: 'drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25))' }}
                 className='flex flex-row items-center mt-2'>
                 <SocialIcon
+                    url="https://github.com/sebascm-dev"
+                    bgColor='transparent'
+                    fgColor='gray'
+                />
+                <SocialIcon
                     url="https://www.linkedin.com/in/sebastian-ramirez-9b0b0b1b5/"
                     bgColor='transparent'
                     fgColor='gray'
                 />
                 <SocialIcon
-                    url=""
+                    url="https://www.instagram.com/_sebascm_/"
                     bgColor='transparent'
                     fgColor='gray'
                 />
                 <SocialIcon
-                    url=""
+                    url="https://twitter.com/_sebascm_"
                     bgColor='transparent'
                     fgColor='gray'
                 />
