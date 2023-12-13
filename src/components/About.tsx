@@ -3,6 +3,8 @@ import React from 'react';
 import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
+import { projects } from './Projects'; // Asegúrate de que la ruta de importación sea correcta
+
 
 type Props = {};
 
@@ -18,7 +20,7 @@ export default function About({ }: Props) {
     });
 
     const projectsAnimation = useSpring({
-        number: projectsInView ? 10 : 0,
+        number: clientsInView ? projects.length : 0,
         from: { number: 0 },
         config: { duration: 5000 },
     });
@@ -42,14 +44,14 @@ export default function About({ }: Props) {
                     transition={{ duration: 0.5 }}
                     className='bg-[#F5B041] w-[43.5%] mx-auto p-8 text-center rounded-md shadow-xl m-4'>
                     <a href="#projects">
-                    <animated.div ref={projectsRef}>
-                        <h2 className='text-lg font-semibold'>Number Projects</h2>
-                        <animated.p className='text-4xl font-bold'>
-                            <animated.span>
-                                {projectsAnimation.number.to((val: number) => `+${Math.floor(val)}`)}
-                            </animated.span>
-                        </animated.p>
-                    </animated.div>
+                        <animated.div ref={projectsRef}>
+                            <h2 className='text-lg font-semibold'>Number Projects</h2>
+                            <animated.p className='text-4xl font-bold'>
+                                <animated.span>
+                                    {projectsAnimation.number.to((val: number) => `+${Math.floor(val)}`)}
+                                </animated.span>
+                            </animated.p>
+                        </animated.div>
                     </a>
                 </motion.div>
 
@@ -71,10 +73,10 @@ export default function About({ }: Props) {
 
             <div className='p-8 gap-5 flex flex-col md:flex-row justify-start items-center md:max-h-[600px] h-auto'>
                 <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className='w-full md:w-4/10 flex items-start justify-center'>
+                    initial={{ opacity: 0, y: 100 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                    className='w-full md:w-4/10 flex items-start justify-center'>
                     <img
                         className='rounded-full w-80 h-80 md:w-full md:h-auto md:max-h-[400px] md:rounded-md shadow-xl object-cover'
                         src="https://pbs.twimg.com/media/Fqj8QdkX0AA5J-L?format=jpg&name=large"
@@ -83,19 +85,19 @@ export default function About({ }: Props) {
                 </motion.div>
 
                 <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className='bg-[#373737] p-5 rounded-md h-auto md:h-[400px] w-full md:w-6/10 flex-grow align-top shadow-xl border border-[#F5B041] '>
+                    initial={{ opacity: 0, y: 100 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                    className='bg-[#373737] p-5 rounded-md h-auto md:h-[400px] w-full md:w-6/10 flex-grow align-top shadow-xl border border-[#F5B041] '>
                     <p className='mb-5'>
                         Soy un estudiante comprometido con el campo de la informática. Durante mis períodos de disponibilidad, principalmente durante los veranos, he obtenido experiencia laboral en diversos roles, incluyendo socorrista, camarero y técnico informático de nivel medio, entre otros. Me caracterizo por ser entusiasta, trabajador y poseer una actitud proactiva para adquirir nuevos conocimientos según sea necesario.
                     </p>
                     <div className='flex justify-center'>
-                        <a 
-                        href='https://drive.google.com/file/d/1b3NO9PKWeJi7zVRg6CHj8xZbt9-6Dzj9/view?usp=drive_link'
-                        download={true}
-                        target='_blank'
-                        className='bg-[#F5B041] hover:bg-yellow-700 cursor-pointer transition-all duration-500 text-white font-bold py-2 px-4 rounded flex items-center justify-center'>
+                        <a
+                            href='https://drive.google.com/file/d/1b3NO9PKWeJi7zVRg6CHj8xZbt9-6Dzj9/view?usp=drive_link'
+                            download={true}
+                            target='_blank'
+                            className='bg-[#F5B041] hover:bg-yellow-700 cursor-pointer transition-all duration-500 text-white font-bold py-2 px-4 rounded flex items-center justify-center'>
                             Download CV
                         </a>
                     </div>
@@ -103,11 +105,11 @@ export default function About({ }: Props) {
             </div>
 
             {/* Cards Sobre Mi */}
-            <motion.div 
-            initial={{ opacity: 0, y: 100 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            className='p-4 md:p-0 flex flex-col md:flex-row flex-wrap justify-around m-4'>
+            <motion.div
+                initial={{ opacity: 0, y: 100 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                className='p-4 md:p-0 flex flex-col md:flex-row flex-wrap justify-around m-4'>
                 <div className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-all duration-500'>
                     <img
                         src="https://cdn-icons-png.flaticon.com/128/4213/4213056.png"
