@@ -11,24 +11,7 @@ export default function ({ }: Props) {
     const [currentPage, setCurrentPage] = useState(0);
     const projectsPerPage = 6;
 
-    const projects = [
-        {
-            id: 1,
-            name: 'Web FMC - UHU',
-            status: 'Working',
-            description: 'Página web de la Facultad de Ciencias Experimentales de la Universidad de Huelva. Desarrollada con Laravel. En proceso de desarrollo.',
-            tags: ['#DesarrolloWeb', '#Backend', '#Frontend', '#Basededatos'],
-            skills: ['html', 'css', 'php', 'laravel', 'mysql', 'bootstrap'],
-            image: './img/projects-img/webfmc.png',
-            url: 'https://www.uhu.es/fmc/',
-            is: [
-                'https://cdn-icons-png.flaticon.com/128/174/174854.png',
-                'https://cdn-icons-png.flaticon.com/128/732/732190.png',
-                'https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png',
-                'https://cdn-icons-png.flaticon.com/128/5968/5968332.png',
-            ]
-        },
-    ];
+    
 
     const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setSearch(event.target.value.toLowerCase());
@@ -143,3 +126,22 @@ export default function ({ }: Props) {
         </div>
     )
 }
+
+export const projects = [
+    {
+        id: 1,
+        name: 'Web FMC - UHU',
+        status: 'Working',
+        description: 'Página web de la Facultad de Ciencias Experimentales de la Universidad de Huelva. Desarrollada con Laravel. En proceso de desarrollo.',
+        tags: ['#DesarrolloWeb', '#Backend', '#Frontend', '#Basededatos'],
+        skills: ['html', 'css', 'php', 'laravel', 'mysql', 'bootstrap'],
+        image: './img/projects-img/webfmc.png',
+        url: 'https://www.uhu.es/fmc/',
+        is: [
+            'https://cdn-icons-png.flaticon.com/128/174/174854.png',
+            'https://cdn-icons-png.flaticon.com/128/732/732190.png',
+            'https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png',
+            'https://cdn-icons-png.flaticon.com/128/5968/5968332.png',
+        ]
+    },
+];
