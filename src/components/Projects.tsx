@@ -147,7 +147,7 @@ export const projects = [
         description: 'Página web de la Facultad de Ciencias Experimentales de la Universidad de Huelva. Desarrollada con Laravel. En proceso de desarrollo.',
         tags: ['#DesarrolloWeb', '#Backend', '#Frontend', '#Basededatos'],
         skills: ['html', 'css', 'php', 'laravel', 'mysql', 'bootstrap'],
-        image: './img/projects-img/webfmc.png',
+        image: './img/webfmc.png',
         url: 'https://www.uhu.es/fmc/',
         is: [
             'https://cdn-icons-png.flaticon.com/128/174/174854.png',
