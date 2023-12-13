@@ -11,8 +11,6 @@ export default function ({ }: Props) {
     const [currentPage, setCurrentPage] = useState(0);
     const projectsPerPage = 6;
 
-    
-
     const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setSearch(event.target.value.toLowerCase());
     };
