@@ -109,7 +109,7 @@ export default function ({ }: Props) {
                         <motion.div
                             initial={{ opacity: 0, y: 50 }}
                             whileInView={{ opacity: 1, y: 0 }}
-                            key={project.id} className='bg-[#373737] rounded-md border border-[#373737] hover:border-[#F5B041] transition-all duration-500'>
+                            key={project.id} className='bg-[#373737] rounded-md border border-[#373737] hover:border-[#F5B041] transition-colors duration-300'>
                             <a
                                 target='_blank'
                                 href={project.url}>
