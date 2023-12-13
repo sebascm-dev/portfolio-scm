@@ -18,21 +18,25 @@ export default function Header({ }: Props) {
                     url="https://github.com/sebascm-dev"
                     bgColor='transparent'
                     fgColor='gray'
+                    target='_blank'
                 />
                 <SocialIcon
                     url="https://www.linkedin.com/in/sebastian-ramirez-9b0b0b1b5/"
                     bgColor='transparent'
                     fgColor='gray'
+                    target='_blank'
                 />
                 <SocialIcon
                     url="https://www.instagram.com/_sebascm_/"
                     bgColor='transparent'
                     fgColor='gray'
+                    target='_blank'
                 />
                 <SocialIcon
                     url="https://twitter.com/_sebascm_"
                     bgColor='transparent'
                     fgColor='gray'
+                    target='_blank'
                 />
             </motion.div>
             <motion.div
