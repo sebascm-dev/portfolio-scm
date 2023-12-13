@@ -13,7 +13,9 @@ export default function Orbit({ }: Props) {
         const animatePlanets = (planetRef: React.MutableRefObject<HTMLDivElement | null>, delay: number) => {
             if (planetRef.current) {
                 setTimeout(() => {
-                    planetRef.current.style.transform = 'translate(-50%, -50%) rotate(0deg) translateX(0) rotate(0deg)';
+                    if (planetRef.current) {
+                        planetRef.current.style.transform = 'translate(-50%, -50%) rotate(0deg) translateX(0) rotate(0deg)';
+                    }
                 }, delay);
             }
         };

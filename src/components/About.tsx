@@ -4,6 +4,7 @@ import { useSpring, animated } from 'react-spring';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { projects } from './Projects'; // Asegúrate de que la ruta de importación sea correcta
+import Image from 'next/image';
 
 
 type Props = {};
@@ -77,10 +78,12 @@ export default function About({ }: Props) {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                     className='w-full md:w-4/10 flex items-start justify-center'>
-                    <img
+                    <Image
                         className='rounded-full w-80 h-80 md:w-full md:h-auto md:max-h-[400px] md:rounded-md shadow-xl object-cover'
                         src="https://pbs.twimg.com/media/Fqj8QdkX0AA5J-L?format=jpg&name=large"
                         alt=""
+                        width={400}
+                        height={400}
                     />
                 </motion.div>
 
@@ -111,9 +114,12 @@ export default function About({ }: Props) {
                 transition={{ duration: 0.5 }}
                 className='p-4 md:p-0 flex flex-col md:flex-row flex-wrap justify-around m-4'>
                 <div className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-all duration-500'>
-                    <img
+                    <Image
                         src="https://cdn-icons-png.flaticon.com/128/4213/4213056.png"
                         className='w-16 h-16 mb-5'
+                        width={64}
+                        height={64}
+                        alt=''
                     />
                     <h2 className='text-lg font-semibold'>Designer</h2>
                     <p className='mb-4'>I value simple content structure, clean design patterns, and thoughtful interactions.</p>
@@ -128,9 +134,12 @@ export default function About({ }: Props) {
                     </ul>
                 </div>
                 <div className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-all duration-500'>
-                    <img
+                    <Image
                         src="https://cdn-icons-png.flaticon.com/128/9387/9387941.png"
                         className='w-16 h-16 mb-5'
+                        width={64}
+                        height={64}
+                        alt=''
                     />
                     <h2 className='text-lg font-semibold'>Frontend Developer</h2>
                     <p className='mb-4'>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
@@ -150,9 +159,12 @@ export default function About({ }: Props) {
                     </ul>
                 </div>
                 <div className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-all duration-500'>
-                    <img
+                    <Image
                         src="https://cdn-icons-png.flaticon.com/128/4925/4925264.png"
                         className='w-16 h-16 mb-5'
+                        width={64}
+                        height={64}
+                        alt=''
                     />
                     <h2 className='text-lg font-semibold'>Student</h2>
                     <p className='mb-4'>I genuinely care about people, and love helping fellow designers work on their craft.</p>

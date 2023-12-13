@@ -1,10 +1,11 @@
 'use client'
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 type Props = {}
 
-export default function ({ }: Props) {
+export default function Projects ({ }: Props) {
     const [search, setSearch] = useState('');
     const [showInProgress, setShowInProgress] = useState(false);
     const [showFinished, setShowFinished] = useState(false);
@@ -96,14 +97,27 @@ export default function ({ }: Props) {
                                 href={project.url}>
                                 <div className='flex flex-col justify-between h-full'>
                                     <div>
-                                        <img src={project.image} alt={project.name} className='w-full h-200px rounded-tl-md rounded-tr-md object-cover' />
+                                        <Image
+                                            src={`/${project.image}`} // Assuming the image path is relative to the root of your project
+                                            alt={project.name}
+                                            className='w-full h-200px rounded-tl-md rounded-tr-md object-cover'
+                                            width={400}
+                                            height={200}
+                                        />
                                     </div>
                                     <div className='flex-1 pl-5 pr-5 pt-2 pb-2'>
                                         <h2 className='text-xl text-center text-[#F5B041] font-bold'>{project.name}</h2>
                                         <p className='text-center'>{project.status}</p>
                                         <div className='flex gap-1'>
                                             {project.is?.map((imageUrl, index) => (
-                                                <img key={index} className='w-5 h-5' src={imageUrl} alt={`Project ${project.id}`} />
+                                                <Image
+                                                    key={index}
+                                                    className='w-5 h-5'
+                                                    src={imageUrl}
+                                                    alt={`Project ${project.id}`}
+                                                    width={20}
+                                                    height={20}
+                                                />
                                             ))}
                                         </div>
                                         <p className='text-xs mt-2 mb-2'>{project.description}</p>

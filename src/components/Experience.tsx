@@ -8,6 +8,7 @@ import 'swiper/css/free-mode';
 import { FreeMode, Pagination } from 'swiper/modules';
 
 import { RxArrowTopRight } from 'react-icons/rx';
+import Image from 'next/image';
 
 type Props = {}
 
@@ -49,7 +50,14 @@ export default function Experience({ }: Props) {
                                 <div className='relative h-44 md:h-52 xl:h-64 w-full' style={{ backgroundImage: `url(${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', borderRadius: '10px 10px 0px 0' }}>
                                     <div className='absolute inset-0 bg-black opacity-50' style={{ borderRadius: '10px 10px 0 0' }}></div>
                                     <div className='absolute inset-0 flex items-center justify-center'>
-                                        <img src={item.icono} alt={item.name} className='w-24 h-24 p-2 bg-[#373737]/80' style={{ borderRadius: '50%' }} />
+                                        <Image
+                                            src={item.icono}
+                                            alt={item.name}
+                                            className='w-24 h-24 p-2 bg-[#373737]/80'
+                                            style={{ borderRadius: '50%' }}
+                                            width={100}
+                                            height={100}
+                                        />
                                     </div>
                                 </div>
                                 <div className='flex flex-col justify-between flex-grow'>

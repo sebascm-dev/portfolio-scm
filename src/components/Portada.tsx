@@ -31,7 +31,7 @@ export default function Portada({ }: Props) {
                     alt=""
                 />
             </a>
-            <h1 className='text-2xl z-40'>Hi, I'm <span className='text-[#F5B041] animate-pulse'>Sebastián Contreras Marín</span></h1>
+            <h1 className="text-2xl z-40">Hi, I&apos;m <span className="text-[#F5B041] animate-pulse">Sebastián Contreras Marín</span></h1>
             <div>
                 <span className='z-40'>{text}</span>
                 <Cursor cursorColor='white' />
