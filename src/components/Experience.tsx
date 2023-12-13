@@ -115,7 +115,7 @@ const data = [
         link: '',
     },
     {
-        icono: 'https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/301010304_438328564978811_9172548422368763520_n.png?_nc_cat=102&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=kQft8R5WPwAAX_S-w8_&_nc_ht=scontent-mad1-1.xx&oh=00_AfANVwwc9XGWLJ8NX6vSXJ9rEH_S84pzX1D6PLYTbXl8Mg&oe=656D6A29',
+        icono: 'https://scontent-mad1-1.xx.fbcdn.net/v/t39.30808-6/301010304_438328564978811_9172548422368763520_n.png?_nc_cat=102&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=aXW33u3sSkQAX9Rsgix&_nc_ht=scontent-mad1-1.xx&oh=00_AfAjtugAma9Usu_2gX0Uw2h8U-_fWbMEpxq7OLleD9Iv2A&oe=657F3669',
         img: 'https://scontent-mad2-1.xx.fbcdn.net/v/t1.6435-9/119460804_1597817960398862_105723894192595918_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=EMtVhg5y-fgAX_HNA00&_nc_ht=scontent-mad2-1.xx&oh=00_AfCGMFW4FptaWt-ab81HRQ6AoQ637FB3KaLB9xY_9yvzPg&oe=65900FAE',
         name: 'MVR System',
         time: '2021',
