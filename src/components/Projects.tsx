@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 type Props = {}
 
-export default function Projects ({ }: Props) {
+export default function Projects({ }: Props) {
     const [search, setSearch] = useState('');
     const [showInProgress, setShowInProgress] = useState(false);
     const [showFinished, setShowFinished] = useState(false);
@@ -128,12 +128,14 @@ export default function Projects ({ }: Props) {
                         </motion.div>
                     ))}
                 </div>
-                <a href="#projects">
-                    <div className='flex gap-2 justify-center items-center mb-8'>
-                        <button onClick={prevPage} disabled={currentPage === 0} className='bg-[#F5B041] hover:bg-yellow-700 cursor-pointer transition-all duration-500 text-white font-bold py-2 px-4 rounded flex items-center justify-center '>Página anterior</button>
-                        <button onClick={nextPage} disabled={(currentPage + 1) * projectsPerPage >= filteredProjects.length} className='bg-[#F5B041] hover:bg-yellow-700 cursor-pointer transition-all duration-500 text-white font-bold py-2 px-4 rounded flex items-center justify-center '>Página siguiente</button>
-                    </div>
-                </a>
+                {projects.length > 6 && (
+                    <a href="#projects">
+                        <div className='flex gap-2 justify-center items-center mb-8'>
+                            <button onClick={prevPage} disabled={currentPage === 0} className='bg-[#F5B041] hover:bg-yellow-700 cursor-pointer transition-all duration-500 text-white font-bold py-2 px-4 rounded flex items-center justify-center '>Página anterior</button>
+                            <button onClick={nextPage} disabled={(currentPage + 1) * projectsPerPage >= filteredProjects.length} className='bg-[#F5B041] hover:bg-yellow-700 cursor-pointer transition-all duration-500 text-white font-bold py-2 px-4 rounded flex items-center justify-center '>Página siguiente</button>
+                        </div>
+                    </a>
+                )}
             </div>
         </div>
     )
