@@ -27,7 +27,7 @@ export default function About({ }: Props) {
     });
 
     const clientsAnimation = useSpring({
-        number: clientsInView ? 15 : 0,
+        number: clientsInView ? 1 : 0,
         from: { number: 0 },
         config: { duration: 5000 },
     });
@@ -43,10 +43,10 @@ export default function About({ }: Props) {
                     initial={{ opacity: 0, x: -100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5 }}
-                    className='bg-[#F5B041] w-[43.5%] mx-auto p-8 text-center rounded-md shadow-xl m-4'>
+                    className='bg-[#373737] w-[43.5%] mx-auto p-8 text-center rounded-md shadow-xl m-4'>
                     <a href="#projects">
                         <animated.div ref={projectsRef}>
-                            <h2 className='text-lg font-semibold'>Number Projects</h2>
+                            <h2 className='text-lg text-[#F5B041] font-semibold'>Projects Completed</h2>
                             <animated.p className='text-4xl font-bold'>
                                 <animated.span>
                                     {projectsAnimation.number.to((val: number) => `+${Math.floor(val)}`)}
@@ -60,9 +60,9 @@ export default function About({ }: Props) {
                     initial={{ opacity: 0, x: 100 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5 }}
-                    className='bg-[#F5B041] w-[45.5%] mx-auto p-8 text-center rounded-md shadow-xl m-4'>
+                    className='bg-[#373737] w-[45.5%] mx-auto p-8 text-center rounded-md shadow-xl m-4'>
                     <animated.div ref={clientsRef}>
-                        <h2 className='text-lg font-semibold'>Number Clients</h2>
+                        <h2 className='text-lg text-[#F5B041] font-semibold'>Satisfied Clients</h2>
                         <animated.p className='text-4xl font-bold'>
                             <animated.span>
                                 {clientsAnimation.number.to((val: number) => `+${Math.floor(val)}`)}
@@ -74,7 +74,7 @@ export default function About({ }: Props) {
 
             <div className='p-8 gap-5 flex flex-col md:flex-row justify-start items-center md:max-h-[600px] h-auto'>
                 <motion.div
-                    initial={{ opacity: 0, y: 100 }}
+                    initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                     className='w-full md:w-4/10 flex items-start justify-center'>
@@ -88,12 +88,15 @@ export default function About({ }: Props) {
                 </motion.div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 100 }}
+                    initial={{ opacity: 0, y: 50 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
                     className='bg-[#373737] p-5 rounded-md h-auto md:h-[400px] w-full md:w-6/10 flex-grow align-top shadow-xl border border-[#F5B041] '>
+                    <p className='mb-2'>
+                        A focused student in computer science and programming with experience as a mid-level IT technician and as a web developer. Passionate about acquiring skills in software development and emerging technologies. Constantly seeking opportunities to expand my knowledge in this field.
+                    </p>
                     <p className='mb-5'>
-                        Soy un estudiante comprometido con el campo de la informática. Durante mis períodos de disponibilidad, principalmente durante los veranos, he obtenido experiencia laboral en diversos roles, incluyendo socorrista, camarero y técnico informático de nivel medio, entre otros. Me caracterizo por ser entusiasta, trabajador y poseer una actitud proactiva para adquirir nuevos conocimientos según sea necesario.
+                        I am a person who likes to learn new things, I am very curious and I like to investigate and learn about new technologies. I like to work in a team and I am a very responsible person.
                     </p>
                     <div className='flex justify-center'>
                         <a
@@ -108,12 +111,68 @@ export default function About({ }: Props) {
             </div>
 
             {/* Cards Sobre Mi */}
-            <motion.div
-                initial={{ opacity: 0, y: 100 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5 }}
-                className='p-4 md:p-0 flex flex-col md:flex-row flex-wrap justify-around m-4'>
-                <div className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-all duration-500'>
+            <h3 className='text-xl text-center uppercase tracking-[10px] text-gray-500'>
+                Services
+            </h3>
+            <div className='p-4 md:p-0 flex flex-col md:flex-row flex-wrap justify-around m-4'>
+                <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5 }}
+                    className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-colors duration-500'>
+                    <Image
+                        src="https://cdn-icons-png.flaticon.com/128/9387/9387941.png"
+                        className='w-16 h-16 mb-5'
+                        width={64}
+                        height={64}
+                        alt=''
+                    />
+                    <h2 className='text-lg font-semibold'>Fullstack Developer</h2>
+                    <p className='mb-4'>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
+                    <h3 className='text-[#F5B041]'>Languages I speak:</h3>
+                    <p className='mb-4'>HTML, CSS, JavaScript, TypeScript, PHP, etc...</p>
+                    <h3 className='text-[#F5B041]'>Dev Tools:</h3>
+                    <ul>
+                        <li>VSCode</li>
+                        <li>Github</li>
+                        <li>Vercel</li>
+                        <li>Netlify</li>
+                        <li>Firebase</li>
+                        <li>Terminal</li>
+                    </ul>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.75 }}
+                    className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-colors duration-500'>
+                    <Image
+                        src="https://cdn-icons-png.flaticon.com/128/4925/4925264.png"
+                        className='w-16 h-16 mb-5'
+                        width={64}
+                        height={64}
+                        alt=''
+                    />
+                    <h2 className='text-lg font-semibold'>Manager</h2>
+                    <p className='mb-4'>I can handle server and network administration, as well as use different OS.</p>
+                    <h3 className='text-[#F5B041]'>Experiences I draw from:</h3>
+                    <p className='mb-4'>OS, Networking, Virtualization, Cybersecurity, Automations, etc...</p>
+                    <h3 className='text-[#F5B041]'>Tools and Technologies:</h3>
+                    <ul>
+                        <li>Linux & Windows Server</li>
+                        <li>VMware & VirtualBox</li>
+                        <li>Routers & Switches</li>
+                        <li>Protocols & Firewalls</li>
+                        <li>Apache & Nginx</li>
+                        <li>Databases & Active Directory</li>
+                        <li>Others</li>
+                    </ul>
+                </motion.div>
+                <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1 }}
+                    className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-colors duration-500'>
                     <Image
                         src="https://cdn-icons-png.flaticon.com/128/4213/4213056.png"
                         className='w-16 h-16 mb-5'
@@ -128,60 +187,14 @@ export default function About({ }: Props) {
                     <h3 className='text-[#F5B041]'>Design Tools:</h3>
                     <ul>
                         <li>Figma</li>
-                        <li>Adobe XD</li>
+                        <li>WordPress</li>
                         <li>Photoshop</li>
                         <li>Illustrator</li>
+                        <li>After Effects</li>
+                        <li>Canva</li>
                     </ul>
-                </div>
-                <div className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-all duration-500'>
-                    <Image
-                        src="https://cdn-icons-png.flaticon.com/128/9387/9387941.png"
-                        className='w-16 h-16 mb-5'
-                        width={64}
-                        height={64}
-                        alt=''
-                    />
-                    <h2 className='text-lg font-semibold'>Frontend Developer</h2>
-                    <p className='mb-4'>I like to code things from scratch, and enjoy bringing ideas to life in the browser.</p>
-                    <h3 className='text-[#F5B041]'>Languages I speak:</h3>
-                    <p className='mb-4'>HTML, Pug, Slim, CSS, Sass, Git</p>
-                    <h3 className='text-[#F5B041]'>Dev Tools:</h3>
-                    <ul>
-                        <li>Atom</li>
-                        <li>Bitbucket</li>
-                        <li>Bootstrap</li>
-                        <li>Bulma</li>
-                        <li>Codekit</li>
-                        <li>Github</li>
-                        <li>Surge</li>
-                        <li>Terminal</li>
-                        <li>Vercel</li>
-                    </ul>
-                </div>
-                <div className='bg-[#373737] w-full md:w-[30%] mx-auto p-5 text-center rounded-md shadow-xl flex flex-col items-center justify-start mb-4 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-all duration-500'>
-                    <Image
-                        src="https://cdn-icons-png.flaticon.com/128/4925/4925264.png"
-                        className='w-16 h-16 mb-5'
-                        width={64}
-                        height={64}
-                        alt=''
-                    />
-                    <h2 className='text-lg font-semibold'>Student</h2>
-                    <p className='mb-4'>I genuinely care about people, and love helping fellow designers work on their craft.</p>
-                    <h3 className='text-[#F5B041]'>Experiences I draw from:</h3>
-                    <p className='mb-4'>UX/UI, Product design, Freelancing</p>
-                    <h3 className='text-[#F5B041]'>Mentor Stats:</h3>
-                    <ul>
-                        <li>7 years of experience</li>
-                        <li>26 short courses</li>
-                        <li>65 bootcamps</li>
-                        <li>Over 200 students</li>
-                        <li>Over 2,350 mentor sessions</li>
-                        <li>Over 60 group critiques</li>
-                        <li>Over 16,500 comments</li>
-                    </ul>
-                </div>
-            </motion.div>
+                </motion.div>
+            </div>
         </div>
     );
 }
