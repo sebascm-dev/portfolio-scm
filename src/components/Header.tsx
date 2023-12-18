@@ -21,7 +21,7 @@ export default function Header({ }: Props) {
                     target='_blank'
                 />
                 <SocialIcon
-                    url="https://www.linkedin.com/in/sebastian-ramirez-9b0b0b1b5/"
+                    url="https://www.linkedin.com/in/sebascm/"
                     bgColor='transparent'
                     fgColor='gray'
                     target='_blank'
