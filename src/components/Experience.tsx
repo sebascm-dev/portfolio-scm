@@ -44,7 +44,7 @@ export default function Experience({ }: Props) {
                     spaceBetween={30}
                     grabCursor={true}
                 >
-                    {data.map((item, index) => (
+                    {experience.map((item, index) => (
                         <SwiperSlide key={`${item.name}-${index}`}>
                             <div className='bg-[#373737] h-[700px] m-4 w-full md:w-[90%] mx-auto rounded-[10px] shadow-xl flex flex-col justify-between pb-8 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-all duration-500' style={{ marginBottom: '50px' }}>
                                 <div className='relative h-44 md:h-52 xl:h-64 w-full' style={{ backgroundImage: `url(${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', borderRadius: '10px 10px 0px 0' }}>
@@ -85,40 +85,46 @@ export default function Experience({ }: Props) {
                 </Swiper>
             </div>
 
+            <h3 className='text-xl text-center uppercase tracking-[10px] text-gray-500'>
+                Certificates & Titles
+            </h3>
+            {/* CARRUCEL DE IMAGENES AQUI DEBAJO */}
+
         </div>
     )
 }
 
-const data = [
+// Experiencia Laboral y Académica
+const experience = [
     {
         icono: 'https://aulafutbol.uca.es/wp-content/uploads/2020/10/logo-universidad-de-huelva.png',
         img: 'https://www.uhu.es/sites/default/files/2022-10/Estudia_en_la_UHU_05_1472x804px.png',
-        name: 'Universidad de Huelva - UHU',
+        name: 'University of Huelva - UHU',
         time: 'Actualidad',
-        description: 'Trabajando en la Universidad de Huelva como desarrollador web. Donde me encargo de la web FMC de la universidad en la facultad de experimentales, el mantenimiento de la misma y de la base de datos.',
+        description: 'Working at the University of Huelva as a web developer. Where I am in charge of the web FMC of the university in the faculty of experimental, the maintenance of the same and the experiencebase.',
         status: 'Working',
         services: [
-            'Backend con PHP y Laravel',
+            'Backend with PHP and Laravel',
             'Frontend',
-            'Desarrollo Web FMC',
-            'Manipulación de la Bases de Datos',
+            'FMC Web Development',
+            'experiencebase Manipulation',
         ],
         link: 'https://uhu.es',
     },
     {
         icono: 'https://pbs.twimg.com/profile_images/1101837603886845954/6hgKG44F_400x400.png',
         img: 'https://w.wallhaven.cc/full/k9/wallhaven-k9k9l7.jpg',
-        name: 'ASIR - Administración de Sistemas Informáticos en Red',
+        name: 'Administración de Sistemas Informáticos en Red - ASIR',
         time: '2021 - 2023',
-        description: 'Ciclo formativo de grado superior de administración de sistemas informáticos en red. En el cual he aprendiendo a administrar sistemas informáticos en red, a configurar servidores, a programar en diferentes lenguajes, etc.',
+        description: 'Higher level training cycle of administration of network computer systems. In which I have learned to administer networked computer systems, to configure servers, to program in different languages, etc...',
         status: 'Studying',
         services: [
-            'Planificación y administración de redes',
-            'Administración de sistemas operativos',
-            'Gestión de bases de datos',
-            'Lenguajes de marcas',
-            'Implantación de aplicaciones Web',
-            'Seguridad y alta disponibilidad',
+            'Network planning and administration',
+            'Operating systems administration',
+            'experiencebase management',
+            'Markup languages',
+            'Web application implementation', 'Security and high availability',
+            'Security and high availability',
         ],
         link: '',
     },
@@ -127,34 +133,42 @@ const data = [
         img: 'https://scontent-mad2-1.xx.fbcdn.net/v/t1.6435-9/119460804_1597817960398862_105723894192595918_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=EMtVhg5y-fgAX_HNA00&_nc_ht=scontent-mad2-1.xx&oh=00_AfCGMFW4FptaWt-ab81HRQ6AoQ637FB3KaLB9xY_9yvzPg&oe=65900FAE',
         name: 'MVR System',
         time: '2021',
-        description: 'Empresa de reparación de ordenadores y venta de componentes informáticos. Además normalmente trabaja con servidores y cableado de redes.',
+        description: 'Computer repair company and sale of computer components. Also normally works with servers and network cabling.',
         status: 'Working',
         services: [
-            'Configuración de servidores',
-            'Reparación de ordenadores',
-            'Instalación de cableado',
-            'Venta de ordenadores',
+            'Server configuration',
+            'Computer repair',
+            'Installation of cabling',
+            'Computer sales',
         ],
         link: '',
     },
     {
         icono: 'https://pbs.twimg.com/profile_images/1101837603886845954/6hgKG44F_400x400.png',
         img: 'https://i.blogs.es/7f4b40/montajepc2/1366_2000.jpeg',
-        name: 'SMR - Sistemas Microinformáticos y Redes',
+        name: 'Sistemas Microinformáticos y Redes - SMR',
         time: '2019 - 2021',
-        description: 'Ciclo formativo de grado medio de sistemas microinformáticos y redes. En el cual he aprendido a montar y reparar ordenadores, configurar servidores, cablear redes, etc.',
+        description: 'Medium grade training cycle of microcomputer systems and networks. In which I learned how to assemble and repair computers, configure servers, cable networks, etc...',
         status: 'Studying',
         services: [
-            'Montaje y mantenimiento de equipo',
-            'Servicios en red',
-            'Redes locales',
-            'Seguridad informática',
-            'Sistemas operativos monopuesto',
-            'Sistemas operativos en red',
-            'Aplicaciones ofimáticas',
-            'Implantación de aplicaciones web',
-            'Formación y orientación laboral',
+            'Assembly and maintenance of equipment',
+            'Network services',
+            'Local area networks',
+            'Computer security',
+            'Single-user operating systems',
+            'Network Operating Systems',
+            'Office applications',
+            'Implementation of web applications',
+            'Training and labor orientation',
         ],
         link: '',
+    },
+]
+
+const certificates = [
+    {
+        img: 'https://i.blogs.es/7f4b40/montajepc2/1366_2000.jpeg',
+        name: 'Sistemas Microinformáticos y Redes - SMR',
+        time: '2019 - 2021',
     },
 ]
