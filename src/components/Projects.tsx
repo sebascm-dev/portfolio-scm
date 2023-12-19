@@ -146,7 +146,7 @@ export const projects = [
         id: 1,
         name: 'Web FMC - UHU',
         status: 'Finished',
-        description: 'Webste for the Faculty of Experimental Sciences at the University of Huelva. Developed with Laravel. Under development.',
+        description: 'Website for the Faculty of Experimental Sciences at the University of Huelva. Developed with Laravel. Under development.',
         tags: ['#WebDevelopment', '#Backend', '#Frontend', '#Database'],
         skills: ['html', 'css', 'php', 'laravel', 'mysql', 'bootstrap'],
         image: 'img/webfmc.png',
