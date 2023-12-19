@@ -107,7 +107,7 @@ export default function Projects({ }: Props) {
                                     </div>
                                     <div className='flex-1 pl-5 pr-5 pt-2 pb-2'>
                                         <h2 className='text-xl text-center text-[#F5B041] font-bold'>{project.name}</h2>
-                                        <p className='text-center'>{project.status}</p>
+                                        <p className='text-xs text-center'>{project.status}</p>
                                         <div className='flex gap-1'>
                                             {project.is?.map((imageUrl, index) => (
                                                 <Image
@@ -145,7 +145,7 @@ export const projects = [
     {
         id: 1,
         name: 'Web FMC - UHU',
-        status: 'Working',
+        status: 'Finished',
         description: 'Página web de la Facultad de Ciencias Experimentales de la Universidad de Huelva. Desarrollada con Laravel. En proceso de desarrollo.',
         tags: ['#DesarrolloWeb', '#Backend', '#Frontend', '#Basededatos'],
         skills: ['html', 'css', 'php', 'laravel', 'mysql', 'bootstrap'],
