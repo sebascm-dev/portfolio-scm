@@ -6,7 +6,8 @@ const nextConfig = {
             'cdn-icons-png.flaticon.com',
             'aulafutbol.uca.es',
             'scontent-mad1-1.xx.fbcdn.net',
-            'static-00.iconduck.com'
+            'static-00.iconduck.com',
+            'img.icons8.com'
         ],
     },
 };
