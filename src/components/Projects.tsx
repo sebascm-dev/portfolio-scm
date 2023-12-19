@@ -100,7 +100,7 @@ export default function Projects({ }: Props) {
                                         <Image
                                             src={`/${project.image}`} // Assuming the image path is relative to the root of your project
                                             alt={project.name}
-                                            className='w-full h-200px rounded-tl-md rounded-tr-md object-cover'
+                                            className='w-full h-[175px] rounded-tl-md rounded-tr-md object-cover'
                                             width={400}
                                             height={200}
                                         />
@@ -149,14 +149,14 @@ export const projects = [
         description: 'Project guided by a video where I learn to consume an API of movies and series, and to display them on a web, showing it as if it were a catalog of movies in the style of Netflix.',
         tags: ['#api', '#webdevelopment', '#frontend', '#backend', '#practice', '#learning'],
         skills: ['html', 'sass', 'javascript', 'react', 'vite', 'nodejs'],
-        image: 'img/webfmc.png',
-        url: 'https://www.uhu.es/fmc/',
+        image: 'img/tmdbapi.png',
+        url: '',
         is: [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
             'https://img.icons8.com/?size=80&id=78Fr72VCwbPq&format=png', // sass
             'https://img.icons8.com/?size=48&id=108784&format=png', // javascript
-            'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
             'https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png', // vite
+            'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
             'https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png' // nodejs
         ]
     },
