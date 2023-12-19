@@ -1,14 +1,13 @@
 'use client'
-import { Swiper, SwiperSlide } from 'swiper/react'
+import Image from 'next/image';
 
+import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/free-mode';
 
 import { FreeMode, Pagination } from 'swiper/modules';
-
 import { RxArrowTopRight } from 'react-icons/rx';
-import Image from 'next/image';
 
 type Props = {}
 
@@ -44,7 +43,7 @@ export default function Experience({ }: Props) {
                     spaceBetween={30}
                     grabCursor={true}
                 >
-                    {experience.map((item, index) => (
+                    {data.map((item, index) => (
                         <SwiperSlide key={`${item.name}-${index}`}>
                             <div className='bg-[#373737] h-[700px] m-4 w-full md:w-[90%] mx-auto rounded-[10px] shadow-xl flex flex-col justify-between pb-8 md:mb-0 border border-[#373737] hover:border-[#F5B041] transition-all duration-500' style={{ marginBottom: '50px' }}>
                                 <div className='relative h-44 md:h-52 xl:h-64 w-full' style={{ backgroundImage: `url(${item.img})`, backgroundSize: 'cover', backgroundPosition: 'center', borderRadius: '10px 10px 0px 0' }}>
@@ -84,30 +83,23 @@ export default function Experience({ }: Props) {
                     ))}
                 </Swiper>
             </div>
-
-            <h3 className='text-xl text-center uppercase tracking-[10px] text-gray-500'>
-                Certificates & Titles
-            </h3>
-            {/* CARRUCEL DE IMAGENES AQUI DEBAJO */}
-
         </div>
     )
 }
 
-// Experiencia Laboral y Académica
-const experience = [
+const data = [
     {
         icono: 'https://aulafutbol.uca.es/wp-content/uploads/2020/10/logo-universidad-de-huelva.png',
         img: 'https://www.uhu.es/sites/default/files/2022-10/Estudia_en_la_UHU_05_1472x804px.png',
         name: 'University of Huelva - UHU',
         time: 'Actualidad',
-        description: 'Working at the University of Huelva as a web developer. Where I am in charge of the web FMC of the university in the faculty of experimental, the maintenance of the same and the experiencebase.',
+        description: 'Working at the University of Huelva as a web developer. Where I am in charge of the web FMC of the university in the faculty of experimental, the maintenance of the same and the database.',
         status: 'Working',
         services: [
             'Backend with PHP and Laravel',
             'Frontend',
             'FMC Web Development',
-            'experiencebase Manipulation',
+            'Database Manipulation',
         ],
         link: 'https://uhu.es',
     },
@@ -121,7 +113,7 @@ const experience = [
         services: [
             'Network planning and administration',
             'Operating systems administration',
-            'experiencebase management',
+            'Database management',
             'Markup languages',
             'Web application implementation', 'Security and high availability',
             'Security and high availability',
@@ -162,13 +154,5 @@ const experience = [
             'Training and labor orientation',
         ],
         link: '',
-    },
-]
-
-const certificates = [
-    {
-        img: 'https://i.blogs.es/7f4b40/montajepc2/1366_2000.jpeg',
-        name: 'Sistemas Microinformáticos y Redes - SMR',
-        time: '2019 - 2021',
     },
 ]
