@@ -144,19 +144,38 @@ export default function Projects({ }: Props) {
 
 export const projects = [
     {
+        id: 2,
+        name: 'Simple TMDB-API',
+        status: 'Finished',
+        description: 'Using the TMDB API, this website shows the most popular movies. You can search for your favorite movies and see what year they were released.',
+        tags: ['#WebDevelopment', '#Backend', '#api'],
+        skills: ['html', 'css', 'typescript', 'react', 'vite', 'nodejs'],
+        image: 'img/simple-tmdb-api.png',
+        url: 'https://simple-tmdb-api.vercel.app/',
+        is: [
+            'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
+            'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
+            'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
+            'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
+            'https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png', // vite
+            'https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png', // nodejs
+        ]
+    },
+    {
         id: 1,
         name: 'Web FMC - UHU',
         status: 'Finished',
         description: 'Website for the Faculty of Experimental Sciences at the University of Huelva. Developed with Laravel. Under development.',
         tags: ['#WebDevelopment', '#Backend', '#Frontend', '#Database'],
-        skills: ['html', 'css', 'php', 'laravel', 'mysql', 'bootstrap'],
+        skills: ['html', 'css', 'php', 'laravel', 'mysql'],
         image: 'img/webfmc.png',
         url: 'https://www.uhu.es/fmc/',
         is: [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
             'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
-            'https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png', // laravel
             'https://cdn-icons-png.flaticon.com/128/5968/5968332.png', // php
+            'https://img.icons8.com/?size=48&id=vR6XrZzQr1CN&format=png', // mysql
+            'https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png', // laravel
         ]
     },
 ];
