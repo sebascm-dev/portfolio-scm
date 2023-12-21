@@ -7,7 +7,8 @@ const nextConfig = {
             'aulafutbol.uca.es',
             'scontent-mad1-1.xx.fbcdn.net',
             'static-00.iconduck.com',
-            'img.icons8.com'
+            'img.icons8.com',
+            'iconos8.es',
         ],
     },
 };
