@@ -100,7 +100,7 @@ export default function About({ }: Props) {
                     </p>
                     <div className='flex justify-center'>
                         <a
-                            href='https://drive.google.com/file/d/1b3NO9PKWeJi7zVRg6CHj8xZbt9-6Dzj9/view?usp=drive_link'
+                            href='https://drive.google.com/file/d/1zVO-8yaASu2UxUlDUNSAeXc-JlFF6mt2/view?usp=sharing'
                             download={true}
                             target='_blank'
                             className='bg-[#F5B041] hover:bg-yellow-700 cursor-pointer transition-all duration-500 text-white font-bold py-2 px-4 rounded flex items-center justify-center'>
