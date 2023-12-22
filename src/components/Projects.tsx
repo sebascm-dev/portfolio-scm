@@ -148,7 +148,7 @@ export const projects = [
         name: 'Simple TMDB-API',
         status: 'Finished',
         description: 'Using the TMDB API, this website shows the most popular movies. You can search for your favorite movies and see what year they were released.',
-        tags: ['#WebDevelopment', '#Backend', '#api'],
+        tags: ['#practices', '#learning', '#frontend', '#design', '#development', '#api', '#deployment'],
         skills: ['html', 'css', 'typescript', 'react', 'vite', 'nodejs'],
         image: 'img/simple-tmdb-api.png',
         url: 'https://simple-tmdb-api.vercel.app/',
@@ -166,7 +166,7 @@ export const projects = [
         name: 'Web FMC - UHU',
         status: 'Finished',
         description: 'Website for the Faculty of Experimental Sciences at the University of Huelva. Developed with Laravel. Under development.',
-        tags: ['#WebDevelopment', '#Backend', '#Frontend', '#Database'],
+        tags: ['#projectbusiness', '#frontend', '#backend', '#fullstack', '#design', '#development', '#api', '#database', '#security', '#testing', '#documentation', '#deployment', '#maintenance'],
         skills: ['html', 'css', 'php', 'laravel', 'mysql'],
         image: 'img/webfmc.png',
         url: 'https://www.uhu.es/fmc/',
@@ -183,7 +183,7 @@ export const projects = [
         name: 'Portfolio - SCM',
         status: 'Finished',
         description: 'This is my personal portfolio. It is developed with Next.js and Tailwind CSS. It is hosted on Vercel.',
-        tags: ['#WebDevelopment', '#Frontend'],
+        tags: ['#projectpersonal', '#frontend', '#backend', '#fullstack', '#design', '#development', '#deployment', '#documentation'],
         skills: ['html', 'tailwindcss', 'typescript', 'react', 'nextjs', 'nodejs'],
         image: 'img/portfolio-scm.png',
         url: 'https://www.uhu.es/fmc/',
@@ -197,3 +197,49 @@ export const projects = [
         ]
     },
 ];
+
+// Orden de la lista is:
+// html - https://cdn-icons-png.flaticon.com/128/732/732212.png
+// css - https://cdn-icons-png.flaticon.com/128/732/732190.png
+// tailwindcss - https://img.icons8.com/?size=48&id=CIAZz2CYc6Kc&format=png
+// javascript - https://img.icons8.com/?size=48&id=2HnB3Yw3ZQ8&format=png
+// typescript - https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png
+// php - https://cdn-icons-png.flaticon.com/128/5968/5968332.png
+// mysql - https://img.icons8.com/?size=48&id=vR6XrZzQr1CN&format=png
+// react - https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png
+// nextjs - https://img.icons8.com/?size=48&id=MWiBjkuHeMVq&format=png
+// vite - https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png
+// nodejs - https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png
+// laravel - https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png
+
+// Orden de la lista tags:
+// #practices
+// #learning
+// #projectpersonal
+// #projectbusiness
+// #design
+// #development
+// #api
+// #database
+// #security
+// #cibersecurity
+// #testing
+// #documentation
+// #deployment
+// #maintenance
+// #other
+// #frontend
+// #backend
+// #fullstack
+// #responsivedesign
+// #ux
+// #ui
+// #ai
+// #cloudcomputing
+// #microservices
+// #scalability
+// #performance
+// #seo
+// #marketing
+// #management
+// #analytics
