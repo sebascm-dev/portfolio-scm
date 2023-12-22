@@ -188,12 +188,12 @@ export const projects = [
         image: 'img/portfolio-scm.png',
         url: 'https://portfolio-scm.vercel.app/',
         is: [
-            'https://img.icons8.com/?size=48&id=20909&format=png', // html
-            'https://img.icons8.com/?size=48&id=CIAZz2CYc6Kc&format=png', //tailwindcss
+            'https://img.icons8.com/?size=80&id=20909&format=png', // html
+            'https://img.icons8.com/?size=80&id=CIAZz2CYc6Kc&format=png', //tailwindcss
             'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
             'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
-            'https://img.icons8.com/?size=48&id=MWiBjkuHeMVq&format=png', // nextjs
-            'https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png', // nodejs
+            'https://img.icons8.com/?size=80&id=MWiBjkuHeMVq&format=png', // nextjs
+            'https://img.icons8.com/?size=80&id=hsPbhkOH4FMe&format=png', // nodejs
         ]
     },
 ];
