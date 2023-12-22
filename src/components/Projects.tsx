@@ -153,8 +153,8 @@ export const projects = [
         image: 'img/simple-tmdb-api.png',
         url: 'https://simple-tmdb-api.vercel.app/',
         is: [
-            'https://img.icons8.com/?size=48&id=20909&format=png', // html
-            'https://img.icons8.com/?size=48&id=21278&format=png', // css
+            'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
+            'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
             'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
             'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
             'https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png', // vite
@@ -171,9 +171,9 @@ export const projects = [
         image: 'img/webfmc.png',
         url: 'https://www.uhu.es/fmc/',
         is: [
-            'https://img.icons8.com/?size=48&id=20909&format=png', // html
-            'https://img.icons8.com/?size=48&id=21278&format=png', // css
-            'https://img.icons8.com/?size=80&id=fAMVO_fuoOuC&format=png', // php
+            'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
+            'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
+            'https://cdn-icons-png.flaticon.com/128/5968/5968332.png', // php
             'https://img.icons8.com/?size=48&id=vR6XrZzQr1CN&format=png', // mysql
             'https://img.icons8.com/?size=64&id=hUvxmdu7Rloj&format=png', // laravel
         ]
@@ -188,7 +188,7 @@ export const projects = [
         image: 'img/portfolio-scm.png',
         url: 'https://portfolio-scm.vercel.app/',
         is: [
-            'https://img.icons8.com/?size=80&id=20909&format=png', // html
+            'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
             'https://img.icons8.com/?size=80&id=CIAZz2CYc6Kc&format=png', //tailwindcss
             'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
             'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
@@ -201,10 +201,10 @@ export const projects = [
 // Orden de la lista is:
 
 // frontend frameworks
-// html - https://img.icons8.com/?size=48&id=20909&format=png
-// css - https://img.icons8.com/?size=48&id=21278&format=png
+// html - https://cdn-icons-png.flaticon.com/128/732/732212.png
+// css - https://cdn-icons-png.flaticon.com/128/732/732190.png
 // tailwindcss - https://img.icons8.com/?size=48&id=CIAZz2CYc6Kc&format=png
-// javascript - https://img.icons8.com/?size=48&id=2HnB3Yw3ZQ8&format=png
+// javascript - https://cdn-icons-png.flaticon.com/128/5968/5968292.png
 // typescript - https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png
 
 // frontend frameworks
@@ -213,7 +213,7 @@ export const projects = [
 
 
 // backend development
-// php - https://img.icons8.com/?size=80&id=fAMVO_fuoOuC&format=png
+// php - https://cdn-icons-png.flaticon.com/128/5968/5968332.png
 // python - https://img.icons8.com/?size=48&id=13441&format=png
 
 // databases
