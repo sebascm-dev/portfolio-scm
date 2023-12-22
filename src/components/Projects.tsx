@@ -155,8 +155,8 @@ export const projects = [
         is: [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
             'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
-            'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png', // react
+            'https://cdn-icons-png.flaticon.com/512/5968/5968381.png', // typescript
+            'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
             'https://vitejs.dev/logo-with-shadow.png', // vite
             'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png', // nodejs
         ]
@@ -174,8 +174,8 @@ export const projects = [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
             'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
             'https://cdn-icons-png.flaticon.com/128/5968/5968332.png', // php
-            'https://img.icons8.com/?size=48&id=vR6XrZzQr1CN&format=png', // mysql
-            'https://img.icons8.com/?size=64&id=hUvxmdu7Rloj&format=png', // laravel
+            'https://pngimg.com/d/mysql_PNG4.png', // mysql
+            'https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png', // laravel
         ]
     },
     {
@@ -189,11 +189,11 @@ export const projects = [
         url: 'https://portfolio-scm.vercel.app/',
         is: [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
-            'https://img.icons8.com/?size=80&id=CIAZz2CYc6Kc&format=png', //tailwindcss
-            'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
-            'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png', // react
+            'https://www.svgrepo.com/show/374118/tailwind.svg', //tailwindcss
+            'https://cdn-icons-png.flaticon.com/512/5968/5968381.png', // typescript
+            'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
             'https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png', // nextjs
-            'https://img.icons8.com/?size=80&id=hsPbhkOH4FMe&format=png', // nodejs
+            'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png', // nodejs
         ]
     },
 ];
@@ -203,32 +203,32 @@ export const projects = [
 // frontend frameworks
 // html - https://cdn-icons-png.flaticon.com/128/732/732212.png
 // css - https://cdn-icons-png.flaticon.com/128/732/732190.png
-// tailwindcss - https://img.icons8.com/?size=48&id=CIAZz2CYc6Kc&format=png
+// tailwindcss - https://www.svgrepo.com/show/374118/tailwind.svg
 // javascript - https://cdn-icons-png.flaticon.com/128/5968/5968292.png
-// typescript - https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png
+// typescript - https://cdn-icons-png.flaticon.com/512/5968/5968381.png
 
 // frontend frameworks
-// react - https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png
-// vue - https://img.icons8.com/?size=80&id=eETV3RNHVrWA&format=png
+// react - https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png
+// vue - https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png
 
 
 // backend development
 // php - https://cdn-icons-png.flaticon.com/128/5968/5968332.png
-// python - https://img.icons8.com/?size=48&id=13441&format=png
+// python - https://cdn3.iconfinder.com/data/icons/logos-and-brands-adobe/512/267_Python-512.png
 
 // databases
-// mysql - https://img.icons8.com/?size=48&id=vR6XrZzQr1CN&format=png
-// mongodb - https://img.icons8.com/?size=80&id=8rKdRqZFLurS&format=png
+// mysql - https://pngimg.com/d/mysql_PNG4.png
+// mongodb - https://www.svgrepo.com/show/331488/mongodb.svg
 
 // backend frameworks
 // vite - https://vitejs.dev/logo-with-shadow.png
 // nextjs - https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png
 // nodejs - https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png
-// laravel - https://img.icons8.com/?size=64&id=hUvxmdu7Rloj&format=png
+// laravel - https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png
 
 // others
-// git - https://img.icons8.com/?size=48&id=20906&format=png
-// docker - https://img.icons8.com/?size=48&id=22813&format=png
+// git - https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/1024px-Git_icon.svg.png
+// docker - https://www.pngfind.com/pngs/m/255-2553250_icon-docker-notext-color-docker-icon-png-transparent.png
 // linux - https://img.icons8.com/?size=80&id=HF4xGsjDERHf&format=png
 
 // Orden de la lista tags:

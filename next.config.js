@@ -9,6 +9,10 @@ const nextConfig = {
             'static-00.iconduck.com',
             'img.icons8.com',
             'iconos8.es',
+            'upload.wikimedia.org',
+            'vitejs.dev',
+            'pngimg.com',
+            'www.svgrepo.com'
         ],
     },
 };
