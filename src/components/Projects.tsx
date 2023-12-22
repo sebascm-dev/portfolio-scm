@@ -186,7 +186,7 @@ export const projects = [
         tags: ['#projectpersonal', '#frontend', '#backend', '#fullstack', '#design', '#development', '#deployment', '#documentation'],
         skills: ['html', 'tailwindcss', 'typescript', 'react', 'nextjs', 'nodejs'],
         image: 'img/portfolio-scm.png',
-        url: 'https://www.uhu.es/fmc/',
+        url: 'https://portfolio-scm.vercel.app/',
         is: [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
             'https://img.icons8.com/?size=48&id=CIAZz2CYc6Kc&format=png', //tailwindcss
