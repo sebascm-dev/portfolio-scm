@@ -153,8 +153,8 @@ export const projects = [
         image: 'img/simple-tmdb-api.png',
         url: 'https://simple-tmdb-api.vercel.app/',
         is: [
-            'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
-            'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
+            'https://img.icons8.com/?size=48&id=20909&format=png', // html
+            'https://img.icons8.com/?size=48&id=21278&format=png', // css
             'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
             'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
             'https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png', // vite
@@ -171,11 +171,11 @@ export const projects = [
         image: 'img/webfmc.png',
         url: 'https://www.uhu.es/fmc/',
         is: [
-            'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
-            'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
-            'https://cdn-icons-png.flaticon.com/128/5968/5968332.png', // php
+            'https://img.icons8.com/?size=48&id=20909&format=png', // html
+            'https://img.icons8.com/?size=48&id=21278&format=png', // css
+            'https://img.icons8.com/?size=80&id=fAMVO_fuoOuC&format=png', // php
             'https://img.icons8.com/?size=48&id=vR6XrZzQr1CN&format=png', // mysql
-            'https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png', // laravel
+            'https://img.icons8.com/?size=64&id=hUvxmdu7Rloj&format=png', // laravel
         ]
     },
     {
@@ -188,7 +188,7 @@ export const projects = [
         image: 'img/portfolio-scm.png',
         url: 'https://portfolio-scm.vercel.app/',
         is: [
-            'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
+            'https://img.icons8.com/?size=48&id=20909&format=png', // html
             'https://img.icons8.com/?size=48&id=CIAZz2CYc6Kc&format=png', //tailwindcss
             'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
             'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
@@ -199,18 +199,37 @@ export const projects = [
 ];
 
 // Orden de la lista is:
-// html - https://cdn-icons-png.flaticon.com/128/732/732212.png
-// css - https://cdn-icons-png.flaticon.com/128/732/732190.png
+
+// frontend frameworks
+// html - https://img.icons8.com/?size=48&id=20909&format=png
+// css - https://img.icons8.com/?size=48&id=21278&format=png
 // tailwindcss - https://img.icons8.com/?size=48&id=CIAZz2CYc6Kc&format=png
 // javascript - https://img.icons8.com/?size=48&id=2HnB3Yw3ZQ8&format=png
 // typescript - https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png
-// php - https://cdn-icons-png.flaticon.com/128/5968/5968332.png
-// mysql - https://img.icons8.com/?size=48&id=vR6XrZzQr1CN&format=png
+
+// frontend frameworks
 // react - https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png
-// nextjs - https://img.icons8.com/?size=48&id=MWiBjkuHeMVq&format=png
+// vue - https://img.icons8.com/?size=80&id=eETV3RNHVrWA&format=png
+
+
+// backend development
+// php - https://img.icons8.com/?size=80&id=fAMVO_fuoOuC&format=png
+// python - https://img.icons8.com/?size=48&id=13441&format=png
+
+// databases
+// mysql - https://img.icons8.com/?size=48&id=vR6XrZzQr1CN&format=png
+// mongodb - https://img.icons8.com/?size=80&id=8rKdRqZFLurS&format=png
+
+// backend frameworks
 // vite - https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png
+// nextjs - https://img.icons8.com/?size=48&id=MWiBjkuHeMVq&format=png
 // nodejs - https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png
-// laravel - https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png
+// laravel - https://img.icons8.com/?size=64&id=hUvxmdu7Rloj&format=png
+
+// others
+// git - https://img.icons8.com/?size=48&id=20906&format=png
+// docker - https://img.icons8.com/?size=48&id=22813&format=png
+// linux - https://img.icons8.com/?size=80&id=HF4xGsjDERHf&format=png
 
 // Orden de la lista tags:
 // #practices
