@@ -185,7 +185,7 @@ export const projects = [
         description: 'This is my personal portfolio. It is developed with Next.js and Tailwind CSS. It is hosted on Vercel.',
         tags: ['#WebDevelopment', '#Frontend'],
         skills: ['html', 'tailwindcss', 'typescript', 'react', 'nextjs', 'nodejs'],
-        image: 'img/webfmc.png',
+        image: 'img/portfolio-scm.png',
         url: 'https://www.uhu.es/fmc/',
         is: [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
