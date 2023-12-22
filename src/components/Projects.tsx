@@ -156,9 +156,9 @@ export const projects = [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
             'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
             'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
-            'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
-            'https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png', // vite
-            'https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png', // nodejs
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png', // react
+            'https://vitejs.dev/logo-with-shadow.png', // vite
+            'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png', // nodejs
         ]
     },
     {
@@ -191,7 +191,7 @@ export const projects = [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
             'https://img.icons8.com/?size=80&id=CIAZz2CYc6Kc&format=png', //tailwindcss
             'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
-            'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
+            'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png', // react
             'https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png', // nextjs
             'https://img.icons8.com/?size=80&id=hsPbhkOH4FMe&format=png', // nodejs
         ]
@@ -208,7 +208,7 @@ export const projects = [
 // typescript - https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png
 
 // frontend frameworks
-// react - https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png
+// react - https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png
 // vue - https://img.icons8.com/?size=80&id=eETV3RNHVrWA&format=png
 
 
@@ -221,9 +221,9 @@ export const projects = [
 // mongodb - https://img.icons8.com/?size=80&id=8rKdRqZFLurS&format=png
 
 // backend frameworks
-// vite - https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png
+// vite - https://vitejs.dev/logo-with-shadow.png
 // nextjs - https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png
-// nodejs - https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png
+// nodejs - https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png
 // laravel - https://img.icons8.com/?size=64&id=hUvxmdu7Rloj&format=png
 
 // others
