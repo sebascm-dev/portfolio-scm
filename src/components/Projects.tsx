@@ -192,7 +192,7 @@ export const projects = [
             'https://img.icons8.com/?size=80&id=CIAZz2CYc6Kc&format=png', //tailwindcss
             'https://img.icons8.com/?size=80&id=Xf1sHBmY73hA&format=png', // typescript
             'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
-            'https://img.icons8.com/?size=80&id=MWiBjkuHeMVq&format=png', // nextjs
+            'https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png', // nextjs
             'https://img.icons8.com/?size=80&id=hsPbhkOH4FMe&format=png', // nodejs
         ]
     },
@@ -222,7 +222,7 @@ export const projects = [
 
 // backend frameworks
 // vite - https://img.icons8.com/?size=48&id=dJjTWMogzFzg&format=png
-// nextjs - https://img.icons8.com/?size=48&id=MWiBjkuHeMVq&format=png
+// nextjs - https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png
 // nodejs - https://img.icons8.com/?size=48&id=hsPbhkOH4FMe&format=png
 // laravel - https://img.icons8.com/?size=64&id=hUvxmdu7Rloj&format=png
 
