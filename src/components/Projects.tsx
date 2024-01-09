@@ -144,7 +144,7 @@ export default function Projects({ }: Props) {
 
 export const projects = [
     {
-        id: 3,
+        id: 2,
         name: 'Simple TMDB-API',
         status: 'Finished',
         description: 'Using the TMDB API, this website shows the most popular movies. You can search for your favorite movies and see what year they were released.',
@@ -162,7 +162,7 @@ export const projects = [
         ]
     },
     {
-        id: 2,
+        id: 1,
         name: 'Web FMC - UHU',
         status: 'Finished',
         description: 'Website for the Faculty of Experimental Sciences at the University of Huelva. Developed with Laravel. Under development.',
@@ -176,24 +176,6 @@ export const projects = [
             'https://cdn-icons-png.flaticon.com/128/5968/5968332.png', // php
             'https://pngimg.com/d/mysql_PNG4.png', // mysql
             'https://static-00.iconduck.com/assets.00/laravel-icon-497x512-uwybstke.png', // laravel
-        ]
-    },
-    {
-        id: 1,
-        name: 'Portfolio - SCM',
-        status: 'Finished',
-        description: 'This is my personal portfolio. It is developed with Next.js and Tailwind CSS. It is hosted on Vercel.',
-        tags: ['#projectpersonal', '#frontend', '#backend', '#fullstack', '#design', '#development', '#deployment', '#documentation'],
-        skills: ['html', 'tailwindcss', 'typescript', 'react', 'nextjs', 'nodejs'],
-        image: 'img/portfolio-scm.png',
-        url: 'https://portfolio-scm.vercel.app/',
-        is: [
-            'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
-            'https://www.svgrepo.com/show/374118/tailwind.svg', //tailwindcss
-            'https://cdn-icons-png.flaticon.com/512/5968/5968381.png', // typescript
-            'https://img.icons8.com/?size=80&id=asWSSTBrDlTW&format=png', // react
-            'https://static-00.iconduck.com/assets.00/next-js-icon-2048x2048-5dqjgeku.png', // nextjs
-            'https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png', // nodejs
         ]
     },
 ];
