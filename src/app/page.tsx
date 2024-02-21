@@ -11,7 +11,6 @@ import Contact from '@/components/Contact'
 export default function Home() {
   return (
     <main className='max-w-6xl mx-auto z-0 scroll-smooth'>
-
       {/* Header */}
       <Header />
 

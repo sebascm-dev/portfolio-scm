@@ -101,7 +101,7 @@ export default function Projects({ }: Props) {
                                         <Image
                                             src={`/${project.image}`} // Assuming the image path is relative to the root of your project
                                             alt={project.name}
-                                            className='w-full h-[175px] rounded-tl-md rounded-tr-md object-cover'
+                                            className='w-full h-[230px] rounded-tl-md rounded-tr-md object-cover'
                                             width={400}
                                             height={200}
                                         />
@@ -143,6 +143,21 @@ export default function Projects({ }: Props) {
 }
 
 export const projects = [
+    {
+        id: 3,
+        name: '100 JavaScript Projects',
+        status: 'Working',
+        description: 'Interactive catalog of 100 JavaScript projects: Explore a variety of applications and tools, from simple games to dynamic web apps! 🚀',
+        tags: ['#practices', '#learning', '#javascript', '#development', 'projectpersonal'],
+        skills: ['html', 'css', 'javascript'],
+        image: 'img/03-100-projects-javascript.webp',
+        url: 'https://javascript-100-proyectos-uao5.vercel.app/',
+        is: [
+            'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
+            'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
+            'https://cdn-icons-png.flaticon.com/128/5968/5968292.png' // javascript
+        ]
+    },
     {
         id: 2,
         name: 'Simple TMDB-API',
