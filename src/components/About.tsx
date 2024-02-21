@@ -93,11 +93,9 @@ export default function About({ }: Props) {
                     transition={{ duration: 0.5 }}
                     className='bg-[#373737] p-5 rounded-md h-auto md:h-[400px] w-full md:w-6/10 flex-grow align-top shadow-xl border border-[#F5B041] '>
                     <p className='mb-2'>
-                        A focused student in computer science and programming with experience as a mid-level IT technician and as a web developer. Passionate about acquiring skills in software development and emerging technologies. Constantly seeking opportunities to expand my knowledge in this field.
-                    </p>
+                        A focused student in computer science and programming with experience as a mid-level computer technician and web developer. Passionate about acquiring knowledge in software development and emerging technologies. Constantly looking for opportunities to expand my knowledge in this field.</p>
                     <p className='mb-5'>
-                        I am a person who likes to learn new things, I am very curious and I like to investigate and learn about new technologies. I like to work in a team and I am a very responsible person.
-                    </p>
+                        I am a person who likes to learn new things, I am very curious and I like to investigate and learn about new technologies. I like to work in a team and I am a very responsible person.</p>
                     <div className='flex justify-center'>
                         <a
                             href='https://drive.google.com/file/d/1zVO-8yaASu2UxUlDUNSAeXc-JlFF6mt2/view?usp=sharing'
