@@ -151,7 +151,7 @@ export const projects = [
         tags: ['#practices', '#learning', '#javascript', '#development', 'projectpersonal'],
         skills: ['html', 'css', 'javascript'],
         image: 'img/03-100-projects-javascript.webp',
-        url: 'https://javascript-100-proyectos-uao5.vercel.app/',
+        url: 'https://javascript-100-proyectos-scm.vercel.app/',
         is: [
             'https://cdn-icons-png.flaticon.com/128/732/732212.png', // html
             'https://cdn-icons-png.flaticon.com/128/732/732190.png', // css
