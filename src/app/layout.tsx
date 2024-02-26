@@ -15,10 +15,10 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="es">
       <head>
         <link rel="shortcut icon" href="src/app/favicon.ico" type="image/x-icon" />
-        <title>Sebastian's Portfolio 🌎</title>
+        <title>Sebastián Portfolio🌎</title>
         <meta name="description" content="Estudiante centrado en informática y programación con experiencia como técnico informático de nivel medio y desarrollador web. Apasionado por adquirir conocimientos en desarrollo de software y tecnologías emergentes. En constante búsqueda de oportunidades para ampliar mis conocimientos en este campo." />
 
         <meta property="og:title" content="Sebastian's Portfolio" />
