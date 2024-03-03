@@ -43,8 +43,8 @@ export default function Portada({ }: Props) {
                 <Link href="#experience">
                     <button className='portButton'>Experience</button>
                 </Link>
-                <Link href="#skills">
-                    <button className='portButton'>Skills</button>
+                <Link href="https://primer-blog-astro.vercel.app/">
+                    <button className='portButton'>Blog</button>
                 </Link>
                 <Link href="#projects">
                     <button className='portButton'>Projects</button>
